@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>ISO27001 for the impatient</title>
+
+		<meta name="description" content="A naive introduction to ISO27001">
+		<meta name="author" content="Roman Kellner">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+				<section>
+					<h1>ISO 27001</h1>
+					<h3>An introduction for the impatient</h3>
+					<p>
+						<small>Created by <a href="http://www.xtradesoft.com">Roman Kellner</a> / certified ISO 27001 ISM and Auditor / CHO @xtradesoft</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>ISO</h2>
+					<p>
+						International Organization for Standardization founded 1947 in Geneva.
+					</p>
+					<p>
+						Known for stuff such as ISO CD format, country codes, currency and date formats, etc..
+					</p>
+					<p>
+						... but also known for the adventures of <a href="http://search.dilbert.com/comic/Iso" target="_blank">Dilbert</a>
+					</p>
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation.
+					</aside>
+				</section>
+
+				<section>
+					<section>
+						<h2>ISO 27001</h2>
+						<p>
+							Management system for information security
+						</p>
+						<p>ISO 27001:2013 -> ISMS Requirements</p>
+						<p>ISO27002:2013 -> Code of practice</p>
+						<br>
+						<q>&ldquo;Framework, Pattern, Guideline, Rules, etc. for the rest of us &rdquo;</q>
+					</section>
+					<section>
+						<h2>Information Security</h2>
+						<p><strong>Paper, Electronic, Brain, etc.</strong> are assets like any other business asset which is considered valuable for the company and needs to be protected</p>
+					</section>
+					<section>
+						<h2>Goals</h2>
+						<ul>
+							<li>Confidentiality</li>
+							<li>Integrity</li>
+							<li>Availability</li>
+							<li>Authenticity</li>
+						</ul>					
+					</section>
+				</section>
+			
+				<section>
+					<section>
+						<h2>Another buzzword lingo silver bullet?</h2>
+						<p>Relax! Nobody said that ...</p>
+						<br>
+						<blockquote>
+							&ldquo;There is no such thing as 100% security ... 
+							but you anyway have an airbag and fasten your seatbelt.&rdquo;
+						</blockquote>
+					</section>
+					<section>
+						<h2>Benefits</h2>
+						<ul>
+							<li>Evaluation of business processes based on IS</li>
+							<li>IS is integral part of business processes</li>
+							<li>Knowledge and control of risk</li>
+							<li>Documentation of information structure and processes</li>
+							<li>Awareness</li>					
+						</ul>
+					</section>
+					<section>
+						<h2>Business Value</h2>
+						<p> <a href="http://dilbert.com/strips/comic/1996-10-04/" target="_blank">Dilbert again!</a></p>
+						<ul>
+							<li>Competitive Advantage</li>
+							<li>Worldwide recognised standard</li>
+							<li>Lower insurance fees</li>
+							<li>ITIL</li>
+							<li>Steady growth ~12% (leaders Japan, India, UK)</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h4>ISO27001</h4>
+						<ol>
+							<li>Scope</li>
+							<li>Normative references</li>
+							<li>Terms and definitions</li>
+							<li>Context of the organization</li>
+							<li>Leadership</li>
+							<li>Planning</li>
+							<li>Support</li>
+							<li>Operations</li>
+							<li>Performance evaluation</li>
+							<li>Improvement</li>
+						</ol>
+						<br>
+						<p><small>Hint: Obvious similarities with other management systems (e.g. ISO9001 QA)</small></p>
+					</section>
+					<section>
+						
+						<h2>PDCA Model</h2>
+						<h4>Plan</h4>
+						<h4>Do</h4>
+						<h4>Check</h4>
+						<h4>Act</h4>
+					</section>
+					<section>
+						
+						<h4>Control Clauses</h4>
+						<ul>
+							<li>A.5 Security Policies</li>
+							<li>A.6 Organization of Information Security</li>
+							<li>A.7 Human Ressource Security</li>
+							<li>A.8 Asset Management</li>
+							<li>A.9 Access Control</li>
+							<li>A.10 Cryptography</li>
+							<li>A.11 Physical and Environmental Security</li>
+							<li>A.12 Operations Security</li>
+							<li>A.13 Communications Security</li>
+							<li>A.14 System, Acquisition, Development and Maintenance</li>
+							<li>A.15 Supplier relationships</li>
+							<li>A.16 IS incident management</li>
+							<li>A.17 IS aspects of BCM</li>
+							<li>A.18 Compliance</li>
+						</ul>
+					</section>	
+
+					<section>
+						<h4>A.5. Security Policies</h4>
+						<p>Define, approve & publish policies</p>
+						<p>Responsible persons</p>
+						<p>Impact of Risk Change (incidents, weakness, technical or organizational change)</p>
+						<p>Evaluate efficiency, cost & impact</p>
+					</section>
+
+					<section>		
+						<h4>A.6. Organization of Information Security</h4>
+						<p>Management declaration</p>
+						<p>Assignment of responsibilities</p>
+						<p>Confidentiality agreements</p>
+						<p>Independent audit</p>
+					</section>	
+
+					<section>
+						<h4>A.7. Human Ressource Security</h4>
+						<p>Hiring: Responsibilities, Background Check, NDAs</p>
+						<p>Active: Awareness, Training, Liability</p>
+						<p>Termination: Revocation of access, return of assets</p>	
+					</section>
+
+					<section>
+						<h4>A.8 Asset Management</h4>
+						<p>Ownership</p>
+						<p>Inventory</p>
+						<p>Admissible Usage</p>
+						<p>Classification Guidelines</p>
+						<p>Classification and handling</p>
+					</section>
+
+					<section>
+						<h4>A.12 Operational Security</h4>
+						<p>Documented procedures</p>
+						<p>Segregation of testing and production</p>
+						<p>Security software</p>
+						<p>Installation</p>
+						<p>Logging and Monitoring</p>
+					</section>
+
+					<section>
+						<h4>A.13 Communication Security</h4>
+						<p>Network Management</p>
+						<p>Security of network services</p>
+						<p>Network segregation</p>
+						<p>Information exchange policies</p>
+						<p>NDAs</p>
+					</section>
+
+					<section>
+						<h4>A.14 System, Acquisition, Development and Maintenance</h4>
+						<p>Analysis & Scope</p>
+						<p>Rules</p>
+						<p>Change control</p>
+						<p>Tools</p>
+						<p>Monitoring</p>
+						<p>Tests</p>
+					</section>
+
+					<section>
+						<h4>A.15 Supplier relationships</h4>
+						<p>Outsourcing, Customer data</p>
+						<br>
+						<h4>A.16 IS incident management</h4>
+						<p>Reporting</p>
+						<p>Responsibilities & procedures</p>
+						<p>Forensics</p>
+						<p>Improvements</p>
+
+					</section>
+
+					<section>
+						<h4>A.17 IS aspects of BCM</h4>
+						<p>Continuity of ISMS and business</p>
+						<p>Planing, Implementation, Test</p>
+						<br>	
+						<h4>A.18 Compliance</h4>
+						<p>Legal</p>
+						<p>Authorities</p>
+						<p>Copyright</p>
+						<p>Data privacy</p>
+						<p>Standards</p>
+					</section>
+				</section>	
+
+				<section>
+					<section>
+						<h3>Minimum Documentation Requirements</h3>
+						<ul>
+							<li>ISMS Guideline</li>
+							<li>Scope</li>
+							<li>Risk management (assessment and handling)</li>
+							<li>Statement of applicability</li>	
+							<li>Proof of evaluation</li>
+							<li>Proof of execution, audits and management reviews</li>
+							<li>Document management policies</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Examples of proof</h3>
+						<ul>
+						<li>Qualification certificates of involved staff</li>
+						<li>Results of risk assessment & handling</li>
+						<li>Visitor logs</li>
+						<li>Access controls</li>
+						<li>Incident logs</li>
+						<li>Audit reports</li>
+						<li>SLA agreements</li>							
+						</ul>
+					</section>
+
+				</section>	
+
+				<section>
+					<h2>Threats</h2>
+					<p>Human Error</p>
+					<p>Technical Failures</p>
+					<p>Criminal Activities</p>
+					<p>Organizational Failures</p>
+					<p>Natural Disaster</p>
+					<br
+					<p><small>see also <em>BSI Grundschutzkatalog</em></small></p>
+				</section>	
+
+				<section>
+					<section>
+						<h3>Risk Management</h3>
+						<p>ISO31000</p>
+						<p>Central process</p>
+						<p>Identification</p>
+						<p>Analysis</p>
+						<p>Assessment</p>
+						<p>Handling</p>
+					</section>
+					<section>
+						<h3>Ways of handling risk</h3>
+						<p>Risk reduction</p>
+						<p>Risk acceptance</p>
+						<p>Risk mitigation</p>
+						<p>Risk transfer</p>
+					</section>	
+				</section>
+
+				<section>
+					<h3>BCM</h3>
+					<ul>
+					<li>Incident (little damage)</li>
+					<li>Emergency (SLA violated, economical damage)</li>
+					<li>Crisis (can happen despite precautions, danger for company and  humans, crisis management takes over)</li>
+					<li>Catastrophe (unlimited in time and space, cannot be handled alone)</li>
+					</ul>
+				</section>	
+
+				<section>
+						<h3>Implementation</h3>
+						<ul>
+							<li>Scope/Clustering</li>
+							<li>Risk Management</li>
+							<li>Documentation</li>
+							<li>Conflict management</li>
+							<li>Standards (PCI-DSS, ITIL, BSI, ISOxxx, OWASP, COBIT, EN50600, DINxxx)</li>
+							<li>Awareness</li>
+							<li>Performance evaluation (e.g. KPIs)</li>
+						</ul>	
+				</section>
+
+				<section>
+					<section>
+						<h3>Audits</h3>					
+						<p>1st party audits</p>
+						<p>Intern (focus on compliance)</p>
+						<br>
+						<p>2nd party audits</p>
+						<p>Customer audits</p>					
+					</section>
+					<section>
+						<h3>Certification</h3>
+						<p>3rd party audit (focus on non-compliance)</p>
+						<p>Systematic & documented process</p>
+						<p>1st step Document check (is the ISMS usable at all?)</p>
+						<p>2nd step Certification audit</p>
+						<p>Cost? effort defined by the standard ISO27006</p>
+						<p>No consulting!!!</p>
+						<p>Valid for 3 years (Re-Audit)</p>
+					</section>
+				</section>
+				<section>
+					<h3>Typical Issues</h3>
+					<p>Missing documentation</p>
+					<p>Process weaknesses</p>
+					<p>Employee compliance</p>
+					<p>IT specialists</p>
+					<p>External parties</p>
+				</section>
+				<section>
+					<h1>Q&A</h1>
+					<h3>THE END</h3>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+	</body>
+</html>
